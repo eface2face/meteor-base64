@@ -1,4 +1,5 @@
-var Base64;
+module.exports=function(Meteor) {
+  var Base64;
 // Base 64 encoding
 
 var BASE_64_CHARS = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
@@ -143,4 +144,5 @@ Base64.decode = function (str) {
   }
   return arr;
 };
-module.exports = Base64;
+  Meteor.Base64 = Base64;
+};

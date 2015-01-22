@@ -1,12 +1,18 @@
 {
   "name": "meteor-base64",
-  "repository": { "type": "git", "url": "https://github.com/eface2face/meteor-base64" },
-  "version": "1.0.5", 
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eface2face/meteor-base64"
+  },
+ "version": "1.1.0",
   "description": "",
   "main": "base64.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "meteor-core": "^1.0.6"
+  }
 }
