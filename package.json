@@ -4,7 +4,7 @@
     "type": "git",
     "url": "https://github.com/eface2face/meteor-base64"
   },
-  "version": "1.2.0",
+  "version": "1.2.4",
   "description": "",
   "main": "base64.js",
   "scripts": {
